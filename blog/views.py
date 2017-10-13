@@ -11,7 +11,7 @@ from .forms import PostForm, CommentForm
 
 def post_list(request):
     posts = Post.objects.all()
-    return render(request, 'blog/post_list.html', {'posts': posts})
+    return render(request, 'blog/post_list.html', {'posts': posts})    #look at the post_list.html ... 
 
 
 def post_detail(request, pk):
