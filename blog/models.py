@@ -1,7 +1,8 @@
 from django.db import models
 from django.utils import timezone
 
-# The stuffs
+# The stuffs making the commits
+# not sure may be i future robots will replace Doctors
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
