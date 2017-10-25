@@ -5,6 +5,7 @@ from django.utils import timezone
 # not sure may be i future robots will replace Doctors
 # one more commit ...
 # trying
+# just made it again....
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
