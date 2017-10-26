@@ -12,7 +12,7 @@ from .forms import PostForm, CommentForm
 def post_list(request):
     posts = Post.objects.all()
     return render(request, 'blog/post_list.html', {'posts': posts})    #look at the post_list.html ... 
-
+# things that also matters
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
