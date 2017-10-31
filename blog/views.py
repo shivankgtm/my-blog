@@ -7,7 +7,7 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from .forms import PostForm, CommentForm
 
-
+Eheirihe
 
 def post_list(request):
     posts = Post.objects.all()
