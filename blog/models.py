@@ -3,7 +3,7 @@ from django.utils import timezone
 
 # The stuffs making the commits
 # not sure may be i future robots will replace Doctors
-# one more commit
+# one more 
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
