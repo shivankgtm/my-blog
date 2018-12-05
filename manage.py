@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-#
+# just a random uodate don't worry.
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "my_website.settings")
     try:
